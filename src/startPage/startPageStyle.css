@@ -1,0 +1,44 @@
+@media screen and (max-width: 600px) {
+  .backgroung-image {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('bkg.jpg');
+  }
+  .overlay {
+    vertical-align: middle;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #053D0085;
+  }
+  .h1-title {
+    color: #DBF4D9;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-family: 'Norican';
+    font-weight: normal;
+    font-size: 3em;
+  }
+  .h2-subtitle {
+    color: #D0F1D0;
+    font-weight: normal;
+    font-family: 'Nanum Gothic Coding';
+
+  }
+  .start-btn {
+    height: 38px;
+    width: 110px;
+    background-color: #449131;
+    border-radius: 20px;
+    color: #F1FAEF;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 50px 2px 4px 2px;
+    cursor: pointer;
+    font-family: 'Nanum Gothic Coding';
+  }
+}

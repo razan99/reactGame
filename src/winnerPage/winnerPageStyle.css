@@ -1,0 +1,67 @@
+@media screen and (max-width: 600px) {
+    .container {
+        text-align: center;
+        color: #DBF4D9;
+    }
+    .stars img {
+        height: 30px;
+        width: 30px;
+    }
+    .star1,
+    .star2 {
+        display: inline;
+    }
+    .stars {
+        white-space: nowrap;
+    }
+    .stars>div {
+        display: inline-block;
+    }
+    .stars p {
+        font-weight: bold;
+    }
+    .gameName {
+        font-family: 'Voces';
+        margin-top: 55px;
+    }
+    .congrat,
+    .winnerName {
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 30px;
+        font-family: 'NanumGothicCoding'
+    }
+    .congrat {
+        margin-top: 23px;
+        margin-bottom: 11px;
+    }
+    .cupImage {
+        margin-top: 23px;
+    }
+    .cupImage .cup {
+        width: 180px;
+    }
+    .scoreNoDiv {
+        margin-top: 20px;
+    }
+    .scoreNoDiv p {
+        font-size: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .done-btn {
+        height: 38px;
+        width: 110px;
+        background-color: #449131;
+        border-radius: 20px;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        margin: 30px 2px 4px 2px;
+        cursor: pointer;
+        color: #DBF4D9;
+        font-family: 'Nanum Gothic Coding';
+    }
+}

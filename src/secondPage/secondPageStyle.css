@@ -1,0 +1,100 @@
+@media screen and (max-width: 600px) {
+  .header {
+    width: 100%;
+    height: 47px;
+    background-color: #449131;
+  }
+  .logo {
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-image: url('logo.png');
+    margin-left: 5px;
+  }
+  .app-name {
+    color: #DBF4D9;
+    font-size: 35px;
+    font-family: 'Norican';
+    font-weight: normal;
+    margin-left: 10px;
+  }
+  .container-logo-name {
+    display: flex;
+    align-items: center;
+  }
+  .container-game-name {
+    margin-top: 70px;
+    text-align: center;
+  }
+  .container-player-name {
+    margin-top: 40px;
+  }
+  .container-player-name-table {
+    margin-top: 30px;
+  }
+  .game-name-label {
+    font-family: 'Voces';
+    color: #DBF4D9;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  .players-name-label {
+    font-family: 'Voces';
+    color: #DBF4D9;
+    font-size: 1.2em;
+    float: left;
+    margin-left: 23%;
+    margin-bottom: 10px;
+  }
+  .game-name-input, .player-name-input {
+    font-family: 'Voces';
+    color: #000000;
+    width: 150px;
+    height: 30px;
+    padding-left: 10px;
+    display: inline-block;
+    margin-bottom: 1px;
+    border: 1px solid #F1EDED90;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #F1EDED90;
+  }
+  .player-name-input {
+    width: 260px !important;
+  }
+  .game-name-input::placeholder, .player-name-input::placeholder {
+    font-family: 'Voces';
+    color: #595A59;
+  }
+  .next-btn {
+    margin: 30px 40px 0 0 !important;
+    float: right;
+  }
+  .plus-btn {
+    margin-left: -33px;
+    border-radius: 50%;
+    background-color: #449131;
+    color: #EEEEEE;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+  }
+  .btn-primary{
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    background-color: #449131;
+    color: #EEEEEE;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+
+  }
+}
